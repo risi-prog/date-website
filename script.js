@@ -34,11 +34,8 @@ function finish(food) {
         <p>📅 <strong>${date}</strong></p>
         <p>⏰ <strong>${time}</strong></p>
         <p>🍴 <strong>${food}</strong></p>
-
-        <br>
-
         <p>😊I can't wait to see your smile!</p>
-        <p>❤️ See you soon ❤️</p>
+        <p> See you soon ❤️</p>
         
     `;
 }
