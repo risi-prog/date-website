@@ -1,0 +1,37 @@
+body{
+    font-family: Arial;
+    background:#fff5f8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    width:450px;
+    box-shadow:0 0 20px rgba(0,0,0,0.1);
+}
+
+.hidden{
+    display:none;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    margin:10px;
+    background:pink;
+    font-size:16px;
+}
+
+.foods{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+}
