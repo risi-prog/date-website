@@ -34,7 +34,14 @@ function finish(food){
 
     document.getElementById("page4").classList.add("hidden");
     document.getElementById("page5").classList.remove("hidden");
+document.getElementById("result").innerHTML =
+`
+📅 ${date}<br>
+⏰ ${time}<br>
+🍴 ${food}<br><br>
 
-    document.getElementById("result").innerHTML =
-    `📅 ${date}<br>⏰ ${time}<br>🍴 ${food}`;
+💕 Date confirmed! 💕<br>
+I can't wait to see your smile 😊<br>
+See you soon ❤️
+`;
 }
