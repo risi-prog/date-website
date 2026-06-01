@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Date?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card" id="page1">
+    <img src="https://media.tenor.com/4z6iQ5lGJkAAAAAC/cute-cat.gif" width="180">
+
+    <h1>🌸 Will you go on a date with me?</h1>
+
+    <div class="buttons">
+        <button id="noBtn">No 😔</button>
+        <button onclick="yesPage()">YES 💕</button>
+    </div>
+</div>
+
+<div class="card hidden" id="page2">
+    <h1>WAIT YOU ACTUALLY SAID YES?? 😭</h1>
+    <p>I was so ready for you to say no 😂</p>
+
+    <button onclick="datePage()">okay okay! →</button>
+</div>
+
+<div class="card hidden" id="page3">
+    <h1>📅 When are you free?</h1>
+
+    <input type="date" id="date">
+
+    <br><br>
+
+    <input type="time" id="time">
+
+    <br><br>
+
+    <button onclick="foodPage()">Set The Date ❤️</button>
+</div>
+
+<div class="card hidden" id="page4">
+    <h1>🍜 What are we feeling?</h1>
+
+    <div class="foods">
+        <button onclick="finish('Pizza')">🍕 Pizza</button>
+        <button onclick="finish('Sushi')">🍣 Sushi</button>
+        <button onclick="finish('Burger')">🍔 Burger</button>
+        <button onclick="finish('Pasta')">🍝 Pasta</button>
+        <button onclick="finish('Tacos')">🌮 Tacos</button>
+        <button onclick="finish('Ramen')">🍜 Ramen</button>
+    </div>
+</div>
+
+<div class="card hidden" id="page5">
+    <h1>🎉 Date Confirmed!</h1>
+
+    <p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
