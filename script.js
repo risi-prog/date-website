@@ -30,12 +30,15 @@ function finish(food) {
     document.getElementById("page5").classList.remove("hidden");
 
     document.getElementById("result").innerHTML = `
-        <h2>💕 Date Confirmed! 💕</h2>
-        <p>📅 <strong>${date}</strong></p>
-        <p>⏰ <strong>${time}</strong></p>
-        <p>🍴 <strong>${food}</strong></p>
-        <p>😊I can't wait to see your smile!</p>
-        <p> See you soon ❤️</p>
-        
-    `;
+🎉 Date Confirmed!<br><br>
+
+📅 ${date}<br>
+⏰ ${time}<br>
+🍴 ${food}<br><br>
+
+<p>😊 I can't wait to see you!</p>
+<p>❤️ See you soon ❤️</p>
+<p>🌹 Looking forward to our date 🌹</p>
+`;
+
 }
