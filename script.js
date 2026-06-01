@@ -36,9 +36,9 @@ function finish(food) {
 ⏰ ${time}<br>
 🍴 ${food}<br><br>
 
-<p>😊 I can't wait to see you!</p>
-<p>❤️ See you soon ❤️</p>
-<p>🌹 Looking forward to our date 🌹</p>
+<p>I can't wait to see your smile 😊</p>
+<p> See you soon ❤️</p>
+
 `;
 
 }
